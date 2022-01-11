@@ -1,5 +1,5 @@
 | Plano de teste ||
-|-----------------------------------------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------------------------------------|
 
 <h2>1. Informações:</h2>
 
@@ -8,12 +8,15 @@
 **Inspeções estáticas**
 2.1. Analisar requisitos da calculadora de força.
 2.2. Analisar os trechos do código usando PMD.
-Verificar a documentação.
+Teste: Verificar a documentação.
 
 **Teste unitário**
 Será realizado utilizando o plugin Java Test Runner
 Foi criado um arquivo em /src/teste/java/junit/CalculadoraTeste.java
 Criada um teste chamado "rmEstimado()" 
 
+**Teste de componentes**
+Teste de componentes com Failsafe
+Usando o comando mvn verify
 
-    
+
